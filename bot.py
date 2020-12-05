@@ -90,7 +90,6 @@ async def test(ctx):
     import json
     import urllib.request
     import string
-    import random
     try:
         random_message = ['Oh..my game ideas aren\'t good enough for you? Fine.. here is a random video for you to watch: ','I\'m too lazy to find a good video, so here is a random one for you: ','Bored? Try watching this: ', 'Remember to like, comment and subscribe on this random video: ','LikE oMg YoU GuYs, WHAT IS UP LAZY GANG!!??! I\'m back with ANOTHER random video: ', 'Can we get this random video to 10 likes?? Make sure to say who sent you: ']
         rm_len = len(random_message)
