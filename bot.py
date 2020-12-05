@@ -29,7 +29,7 @@ GUILD = 'GUILD NAME'
 # 2.2 Enter your YouTube Api Key Here
 Youtube_Api_Key = 'YOUTUBE API KEY HERE'
 
-# 3.0 Insert the names of Roles that are not names
+# 3.0 Insert the names of Roles that are not video game roles:
 ignore = ['GameBot','XavinBot','@everyone','Chaos','Nemesis','Eros','Co-owner','Cronos','Helios','Aether','Hades','Hermes','Dionysus','Poseidon','Gods','Hecate','Banished to Tartarus','Aristoi','Chaos Seeds','Server Booster','Streaming','Gods','YourAnus','Discgolf','UrAnus','Tabletop','Uranus']
 
 # 4.0 Bot Prefix Command
