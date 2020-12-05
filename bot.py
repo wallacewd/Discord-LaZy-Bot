@@ -49,12 +49,7 @@ def counter():
 # 6.0 Lazy Command Handle 
 @bot.command(name='lazy', help='Responds with and random game you have reacted to in Role-Assign',pass_context=True)
 async def test(ctx):
-    csv_open = pd.read_csv('data/counter.csv')
-    df_open = pd.DataFrame(csv_open)
-    counter = int(df_open['count'][0])
-    new_counter = (counter + 1)
-    df_open['count'].at[0] = new_counter
-    df_open.to_csv('data/counter.csv', index = False, header=True)
+    counter()
     game = "Go to the Role-Assign channel and emoji react to games you own!"
     try:
         count = 0
