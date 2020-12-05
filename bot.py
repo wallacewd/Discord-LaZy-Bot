@@ -20,6 +20,8 @@ import discord
 from discord.ext import commands
 import pandas as pd
 
+## Steps 2-4: Server Admin Controls
+
 # 2.0 Obtain your Discord token from Discords Developer Portal
 TOKEN = 'DISCORD TOKEN HERE'
 # 2.1 Enter your Guild name 
@@ -32,6 +34,8 @@ ignore = ['GameBot','XavinBot','@everyone','Chaos','Nemesis','Eros','Co-owner','
 
 # 4.0 Bot Prefix Command
 bot = commands.Bot(command_prefix='!')
+
+## Steps 5-6: Bot Code
 
 # 5.0 Stat Counter Function
 def counter():
